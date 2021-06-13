@@ -1,0 +1,238 @@
+:root{
+    --background: #f3f3f3;
+    --grey: #434343;
+    --darkBlue:#0f4c81;
+    --skyBlue:#98bee0;
+    --lightBlue: #c5d8e9;
+    }
+ 
+body{
+    font-family: poppins;
+} 
+
+nav div{
+    background-color: var(--darkBlue);
+    height: 8vh;
+    width: 100%;
+}    
+
+p{
+    font-size: 2rem;
+    color: var(--grey);
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: .25rem;
+    color: var(--background);
+}
+h2{
+    font-size: 10rem;
+}
+h3{
+    font-size:4rem;
+    text-align: center;
+    letter-spacing: 2PX;
+    color: var(--grey);
+    padding: 5% 0;
+}
+h3 span{
+    color: var(--darkBlue);
+}
+h4{
+    font-size: 6rem;
+    color: var(--grey);
+}
+
+
+
+
+.container{
+max-width: 1220px;
+margin: auto;
+    /* padding: 0 10% ; */
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexColumnCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: var(--background);
+}
+.landingPage{
+    justify-content: space-between;
+    padding: 5% 10% 0;
+}
+.landingPage div img{
+    width: 62rem;
+}
+.landingPage div h2:nth-of-type(1){
+    color: var(--skyBlue);
+    font-weight: 500;
+}
+.landingPage div h2:nth-of-type(2){
+    color: var(--darkBlue);
+    font-weight: 500;
+}
+
+.landingPage div button{
+    font-size: 2rem;
+    background-color: var(--background);
+    border: var(--darkBlue) solid 2px;
+    border-radius: 5rem;
+    padding: .75rem 3rem;
+    margin-top: 4rem;
+    font-family: poppins;
+}
+.landingPage div button a{
+    
+    color: var(--grey);
+}
+.landingPage div button:hover{
+    border: var(--skyBlue) solid 2px;
+    background-color: var(--darkBlue);
+}
+.landingPage div button a:hover{
+    color: var(--background);
+
+}
+.div2{
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.div3{
+    margin: .25rem;
+}
+.div3 p{
+    margin: 1.25rem 0;
+}
+.div4 p{
+    text-align: center;
+    padding: .75rem 5rem;
+    line-height: 2.25rem;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.imgConatiner{
+    height: 18rem;
+}
+.card{
+        text-align: center;
+    width: 20rem;
+margin: 0 2.5rem 2.5rem;
+}
+.div5 img{
+    width: 65rem;
+}
+.div5 p{
+    margin-bottom: 1rem;
+    line-height: normal;
+}
+
+form label{
+    font-family: poppins;
+    font-size: 1.75rem;
+    color: var(--grey);
+}
+form input{
+    background-color: var(--background);
+    border: var(--darkBlue) solid 2px;
+    padding: .75rem 10rem;
+    margin: 1rem 0;
+    border-radius: 5rem;
+}
+form button{
+    font-size: 2rem;
+    color: var(--grey);
+    background-color: var(--background);
+    border: var(--darkBlue) solid 2px;
+    border-radius: 5rem;
+    padding: .5rem 3rem;
+    margin: 2rem;
+    font-family: poppins;
+}
+form button:hover{
+    color: var(--background);
+    background-color: var(--darkBlue);
+    border: var(--skyBlue) solid 2px;
+}
+p span{
+    color: var(--darkBlue);
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.div6 div{
+width: 100%;
+}
+.div6 p{
+    margin-bottom: 1rem;
+}
+i{
+    font-size: 3.5rem;
+    margin: 3rem 2.5rem;
+    color: var(--grey);
+}
+i:hover{
+    color: var(--darkBlue);
+
+}
+
+footer div{
+    background-color: var(--darkBlue);
+    height: 6vh;
+    width: 100%;
+}  
+footer div p{
+    color: var(--background) !important;
+    font-size: 1.6rem;
+}
+@media (max-width: 1000px){
+    .container{
+        padding: 0 2rem;
+    }
+    .flexCenter{
+        flex-direction: column;
+    }
+    .landingPage{
+        flex-direction: column;
+    }
+    .div1{
+        padding-top: 2rem;
+        }
+    .div2{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .cardContainer {
+        flex-direction: row;
+    }
+    .div7{
+        max-width: 90%;
+        margin: 2.5rem auto 0;
+        text-align: center;
+    }
+    .div8 p{
+       text-align: center;
+    }
+  
+}
+@media (max-width: 500px){
+    p{
+        font-size: 1.8rem;
+    }
+    .landingPage div img, .div5 img{
+        max-width: 95%;
+        margin: 0 2.5%;
+    }
+    h2{
+        font-size: 8rem;
+    }
+}
